@@ -50,7 +50,7 @@ author_profile: true
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
     <!-- Placeholder for missing image -->
-    <div style="width: 100%; max-width: 300px; height: 0; padding-top: 56.25%; background-color: #f0f0f0;"></div>
+    <div style="width: 100%; max-width: 300px; height: 0; background-color: #f0f0f0;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h3>A Systematic Framework for Understanding Spatial Information Needs of BLV People</h3>
@@ -64,7 +64,6 @@ author_profile: true
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
     <!-- Placeholder for missing image -->
-    <div style="width: 100%; max-width: 300px; height: 0; padding-top: 56.25%; background-color: #f0f0f0;"></div>
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h3>Exoskeleton Use in Lower Limb Rehabilitation: A Qualitative Study of Clinical Practices and Perspectives of Physiotherapists and Patients in China</h3>
