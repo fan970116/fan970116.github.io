@@ -8,17 +8,17 @@ author_profile: true
 {% include base_path %}
 
 *Papers in Progress*
-### VR "Jianzi": Integrating Haptic Feedback in Virtual Shuttlecock Kicking to Boost Balance Ability in Older Adults
+### VR "Jianzi": Integrating Haptic Feedback in Virtual Shuttlecock Kicking to Boost Balance Ability in Older Adults [Video](/files/shuttlecock.mp4)
 ***Fan LIN**, Chutian JIANG, Mingming FAN*
-<video width='720' height='540' controls><source src='/files/shuttlecock.mp4'>
+<img src='/images/pub1.jpg'>
 
 ### AI Resurrection: Current Perspectives of the Public and Ways Forward
 ***Fan LIN**, Yiqi LIANG, Nuonan SI, Mingming FAN*
 <img src='/images/pub2.jpg'>
 
-### Assisting Medication Information Leaflets Reading for Older Adults: Current Challenges and the Explorations of MediSUM
+### Assisting Medication Information Leaflets Reading for Older Adults: Current Challenges and the Explorations of MediSUM [Video](/files/medisum.mp4)
 *Yiqi LIANG, Nuonan SI, **Fan LIN**, Yuanyuan MAO, Mingming Fan*
-<video width='720' height='540' controls><source src='/files/medisum.mp4'>
+<img src='/images/pub3.jpg'>
 
 ### A Systematic Framework for Understanding Spatial Information Needs of BLV People
 *Yiqi LIANG, **Fan LIN**, Nuonan SI, Qianjie WEI, Chutian JIANG, Mingming FAN*
