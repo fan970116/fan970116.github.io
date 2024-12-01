@@ -49,12 +49,11 @@ author_profile: true
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
-    <!-- Placeholder for missing image -->
+    <img src='/images/pubwhite.jpg' style="width: 100%; max-width: 300px;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h3>A Systematic Framework for Understanding Spatial Information Needs of BLV People</h3>
     <p>Yiqi LIANG, <strong>Fan LIN<strong>, Nuonan SI, Qianjie WEI, Chutian JIANG, Mingming FAN</p>
-    <!-- No video link available --></a>
   </div>
 </div>
 
@@ -62,11 +61,10 @@ author_profile: true
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
-    <!-- Placeholder for missing image -->
+    <img src='/images/pubwhite.jpg' style="width: 100%; max-width: 300px;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h3>Exoskeleton Use in Lower Limb Rehabilitation: A Qualitative Study of Clinical Practices and Perspectives of Physiotherapists and Patients in China</h3>
     <p>Nuonan SI, Junchun SHEN, <strong>Fan LIN<strong>, Qianjie WEI, Jinni ZHOU, Mingming FAN</p>
-    <!-- No video link available -->
   </div>
 </div>
