@@ -5,66 +5,30 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p>I'm interested in virtual reality and older adults' healthcare.</p>
-<!-- <p>This page is under construction. For the details of my publications & projects, please refer to my <a href="XXX" style="text-decoration: none;">Google Scholar</a>, thanks!</p> -->
+{% if site.author.googlescholar %}
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
-<h2>Papers in Progress</h2>
+{% include base_path %}
 
-<!-- Project entries -->
-<div class="publication-entries">
-    <table style="width:100%; border-collapse: separate; border-spacing: 0 20px; background-color: transparent; border: none;">
-        <!-- publication 1 -->
-        <tr style="background-color: transparent;">
-            <td style="width:40%; vertical-align: middle; padding-right: 20px; border: none; text-align: center;">
-                <img src="{{ base_path }}/images/pub-number1.png" alt="" style="width:100%; max-width: 300px;">
-            </td>
-            <td style="width:60%; vertical-align: top; border: none; font-size: 1.1em;">
-                <h3 style="font-size: 1.3em;">VR "Jianzi": Integrating Haptic Feedback in Virtual Shuttlecock Kicking to Boost Balance Ability in Older Adults</h3>
-                <p><strong>Fan LIN</strong>, Chutian JIANG, Mingming FAN</p>
-                <!--<p>Submitted to <em>ACM CHI 2025</em>, under review</p>-->
-                <!-- <p><a href="https://arxiv.org/abs/2306.05716">arXiv</a> / <a href="https://www.youtube.com/watch?v=1m9wNzfp_4E&t=1s">Video</a></p> -->
-                <!-- <p>College students access information from diverse sources like academic databases, social media, and textbooks. This varied landscape offers more learning opportunities but also challenges, including source credibility assessment and information integration. AI tools have the potential to alleviate these challenges by streamlining information processes for students. However, existing AI tools are not yet optimized for handling multi-source information challenges in academic settings. To address this gap, we conducted a two-phase study. Firstly, we conducted focus group workshops to explore students’ multi-source information behaviors in AI-assisted learning environments. Secondly, we held participatory design workshops to gather design considerations to address current challenges. Our analysis revealed a framework of students’ multi-source information behaviors comprising four key phases: Search, Read, Extract, and Manage. These insights provide practical guidance for enhancing AI-assisted academic tools, ultimately improving students’ multi-source information retrieval and management experiences.</p> -->
-            </td>
-        </tr>
-
-        <!-- publication 2 -->
-        <tr style="background-color: transparent;">
-            <td style="width:40%; vertical-align: middle; padding-right: 20px; border: none; text-align: center;">
-                <img src="{{ base_path }}/images/pub-number2.png" alt="" style="width:100%; max-width: 300px;">
-            </td>
-            <td style="width:60%; vertical-align: top; border: none; font-size: 1.1em;">
-                <h3 style="font-size: 1.3em;">AI Resurrection: Current Perspectives of the Public and Ways Forward</h3>
-                <p><strong>Fan LIN</strong>, Yiqi LIANG, Nuonan SI, Mingming FAN</p>
-            </td>
-        </tr>
-
-        <!-- publication 3 -->
-        <tr style="background-color: transparent;">
-            <td style="width:40%; vertical-align: middle; padding-right: 20px; border: none; text-align: center;">
-                <img src="{{ base_path }}/images/pub-number3.png" alt="" style="width:100%; max-width: 300px;">
-            </td>
-            <td style="width:60%; vertical-align: top; border: none; font-size: 1.1em;">
-                <h3 style="font-size: 1.3em;">Assisting Medication Information Leaflets Reading for Older Adults: Current Challenges and the Explorations of MediSUM</h3>
-                <p>Yiqi LIANG, Nuonan SI, <strong>Fan LIN</strong>, Yuanyuan MAO, Mingming FAN</p>
-            </td>
-        </tr>
-
-        <!-- publication 4 -->
-        <tr style="background-color: transparent;">
-            <td style="width:40%; vertical-align: middle; padding-right: 20px; border: none; text-align: center;">
-            </td>
-            <td style="width:60%; vertical-align: top; border: none; font-size: 1.1em;">
-                <h3 style="font-size: 1.3em;">From Scenarios to Strategies: A Systematic Framework for Understanding Spatial Information Needs of BLV People</h3>
-                <p>Yiqi LIANG, <strong>Fan LIN</strong>, Nuonan SI, Qianjie WEI, Chutian JIANG, Mingming FAN</p>
-            </td>
-        </tr>
-
-        <!-- publication 5 -->
-        <tr style="background-color: transparent;">
-            <td style="width:40%; vertical-align: middle; padding-right: 20px; border: none; text-align: center;">
-            </td>
-            <td style="width:60%; vertical-align: top; border: none; font-size: 1.1em;">
-                <h3 style="font-size: 1.3em;">Exoskeleton Use in Lower Limb Rehabilitation: A Qualitative Study of Clinical Practices and Perspectives of Physiotherapists and Patients in China</h3>
-                <p>Nuonan SI, Junchun SHEN, <strong>Fan LIN</strong>, Qianjie WEI, Jinni ZHOU, Mingming FAN</p>
-            </td>
-        </tr>
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+<h2>{{ category[1].title }}</h2>
+<hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
