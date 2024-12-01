@@ -50,12 +50,11 @@ author_profile: true
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
     <!-- Placeholder for missing image -->
-    <div style="width: 100%; max-width: 300px; height: 0; background-color: #f0f0f0;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h3>A Systematic Framework for Understanding Spatial Information Needs of BLV People</h3>
     <p>Yiqi LIANG, <strong>Fan LIN<strong>, Nuonan SI, Qianjie WEI, Chutian JIANG, Mingming FAN</p>
-    <!-- No video link available -->
+    <!-- No video link available --></a>
   </div>
 </div>
 
