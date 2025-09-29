@@ -7,16 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-*Papers in Progress*
+*Papers Accepted*
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
-    <img src='/images/pub1.jpg' style="width: 100%; max-width: 300px;">
+    <img src='/images/pub-VR-Shuttlecock.jpg' style="width: 100%; max-width: 300px;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
-    <h3>VR "Jianzi": Integrating Haptic Feedback in Virtual Shuttlecock Kicking to Boost Balance Ability in Older Adults</h3>
-    <p><strong>Fan LIN</strong>, Chutian JIANG, Mingming FAN</p>
-    <a href="/files/shuttlecock.mp4">[Video]</a>
+    <h3>VR-Shuttlecock: Toward Enhancing Older Adults' Balance through Kicking Shuttlecock in VR with Multi-sensory Feedback</h3>
+    <p><strong>Fan LIN</strong>, Yiqi LIANG, Qianjie WEI, Mingshuo LI, Chutian JIANG, Mingming FAN</p>
+    <p>Accepted by ACM Ubicomp, 2025</p>
+    <a href="/files/VR-Shuttlecock.mp4">[Video]</a>
   </div>
 </div>
 
@@ -24,7 +26,54 @@ author_profile: true
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
-    <img src='/images/pub2.jpg' style="width: 100%; max-width: 300px;">
+    <img src='/images/pub-remotechess.jpg' style="width: 100%; max-width: 300px;">
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <h3>
+    <a href="https://dl.acm.org/doi/full/10.1145/3706598.3714236" target="_blank">RemoteChess: Enhancing Older Adults' Social Connectedness via Designing a Virtual Reality Chinese Chess (Xiangqi) Community</a>
+    </h3>
+    <p>Oianjie WEI, Xiaoying WEI, Yigi LIANG, <strong>Fan LIN</strong>, Nuonan SI, Mingming FAN</p>
+    <p>Published in ACM CHI, 2025</p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
+
+*Papers under Review*
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <div style="flex: 1;">
+    <!-- Placeholder for missing image -->
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <h3>Collaborative Design of In-home Health Monitoring Sensor Systems from the Perspectives of Elderly Families (title modified to ensure blind review)</h3>
+    <p>Anonymous Authors</p>
+    <p>Submitted to ACM CHI, 2026</p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <div style="flex: 1;">
+    <!-- Placeholder for missing image -->
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <h3>A generative AI-powered tool to help older adults prepare visual storytelling (title modified to ensure blind review)</p>
+    <p>Anonymous Authors</p>
+    <p>Submitted to ACM CHI, 2026</p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
+
+*Research Projects*
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <div style="flex: 1;">
+    <img src='/images/pub-AI Resurrection.jpg' style="width: 100%; max-width: 300px;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h3>AI Resurrection: Current Perspectives of the Public and Ways Forward</h3>
@@ -36,35 +85,10 @@ author_profile: true
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <div style="flex: 1;">
-    <img src='/images/pub3.jpg' style="width: 100%; max-width: 300px;">
+    <img src='/images/pub-MediSUM.jpg' style="width: 100%; max-width: 300px;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h3>Assisting Medication Information Leaflets Reading for Older Adults: Current Challenges and the Explorations of MediSUM</h3>
     <p>Yiqi LIANG, Nuonan SI, <strong>Fan LIN</strong>, Yuanyuan MAO, Mingming Fan</p>
-    <a href="/files/medisum.mp4">[Video]</a>
-  </div>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
-
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <div style="flex: 1;">
-    <img src='/images/pubwhite.jpg' style="width: 100%; max-width: 300px;">
-  </div>
-  <div style="flex: 1; padding-left: 20px;">
-    <h3>A Systematic Framework for Understanding Spatial Information Needs of BLV People</h3>
-    <p>Yiqi LIANG, <strong>Fan LIN</strong>, Nuonan SI, Qianjie WEI, Chutian JIANG, Mingming FAN</p>
-  </div>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
-
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <div style="flex: 1;">
-    <!-- Placeholder for missing image -->
-  </div>
-  <div style="flex: 1; padding-left: 20px;">
-    <h3>Exoskeleton Use in Lower Limb Rehabilitation: A Qualitative Study of Clinical Practices and Perspectives of Physiotherapists and Patients in China</h3>
-    <p>Nuonan SI, Junchun SHEN, <strong>Fan LIN</strong>, Qianjie WEI, Jinni ZHOU, Mingming FAN</p>
   </div>
 </div>

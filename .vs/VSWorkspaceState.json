@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\ISSUE_TEMPLATE",
-    "\\_pages",
-    "\\_portfolio"
+    "\\files",
+    "\\_data",
+    "\\_drafts",
+    "\\_includes",
+    "\\_includes\\head",
+    "\\_layouts",
+    "\\_portfolio",
+    "\\_posts",
+    "\\_publications"
   ],
-  "SelectedNode": "\\_portfolio\\portfolio-1.md",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }

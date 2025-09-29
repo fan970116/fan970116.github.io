@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * The Hong Kong University of Science and Technology, Guangzhou Campus  
-  _MPhil in Computational Media and Arts, Information Hub, Sep. 2023 - Jul. 2025 (Expected)_
+  _MPhil in Computational Media and Arts, Information Hub, Sep. 2023 - Oct. 2025_
   * GPA: 3.86/4.3.
   * Advisor: [Prof. Mingming FAN](https://www.mingmingfan.com/) (Primary) & [Prof. Kaishun WU](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Kaishun/wuks) (Co).
   * Thesis Topic: Improving Older Adults' Balance Ability Through VR Shuttlecock Kicking with Haptic Feedback.
