@@ -13,4 +13,4 @@ My research interests include Human-Computer Interaction, Virtual Reality, Acces
 
 Recent News
 ======
-* Sep. 2025: My paper [VR-Shuttlecock] has been accepted by Ubicomp/IMWUT' 25!
+* Sep. 2025: My paper **VR-Shuttlecock** has been accepted by Ubicomp/IMWUT' 25!

@@ -7,10 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-*Papers Accepted*
 <hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
 
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+**Papers Accepted**
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
+
+<div style="display: flex; align-items: center; margin-bottom: 40px; background-color: #f9f9f9; border-radius: 15px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1;">
     <img src='/images/pub-VR-Shuttlecock.jpg' style="width: 100%; max-width: 300px;">
   </div>
@@ -22,9 +24,7 @@ author_profile: true
   </div>
 </div>
 
-<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
-
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+<div style="display: flex; align-items: center; margin-bottom: 40px; background-color: #f9f9f9; border-radius: 15px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1;">
     <img src='/images/pub-remotechess.jpg' style="width: 100%; max-width: 300px;">
   </div>
@@ -37,12 +37,13 @@ author_profile: true
   </div>
 </div>
 
+
 <hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
 
-*Papers under Review*
+**Papers under Review**
 <hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
 
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+<div style="display: flex; align-items: center; margin-bottom: 40px; background-color: #f9f9f9; border-radius: 15px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1;">
     <!-- Placeholder for missing image -->
   </div>
@@ -53,25 +54,24 @@ author_profile: true
   </div>
 </div>
 
-<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
-
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+<div style="display: flex; align-items: center; margin-bottom: 40px; background-color: #f9f9f9; border-radius: 15px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1;">
     <!-- Placeholder for missing image -->
   </div>
   <div style="flex: 1; padding-left: 20px;">
-    <h3>A generative AI-powered tool to help older adults prepare visual storytelling (title modified to ensure blind review)</p>
+    <h3>A generative AI-powered tool to help older adults prepare visual storytelling (title modified to ensure blind review)</h3>
     <p>Anonymous Authors</p>
     <p>Submitted to ACM CHI, 2026</p>
   </div>
 </div>
 
+
 <hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
 
-*Research Projects*
+**Research Projects**
 <hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
 
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+<div style="display: flex; align-items: center; margin-bottom: 40px; background-color: #f9f9f9; border-radius: 15px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1;">
     <img src='/images/pub-AI Resurrection.jpg' style="width: 100%; max-width: 300px;">
   </div>
@@ -81,9 +81,7 @@ author_profile: true
   </div>
 </div>
 
-<hr style="border: 0; border-top: 1px solid #ccc; margin: 40px 0;">
-
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+<div style="display: flex; align-items: center; margin-bottom: 40px; background-color: #f9f9f9; border-radius: 15px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1;">
     <img src='/images/pub-MediSUM.jpg' style="width: 100%; max-width: 300px;">
   </div>
