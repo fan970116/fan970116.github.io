@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+### [Fan's CV](/files/Fan LIN-CV.pdf)  
+
 Education
 ======
 * The Hong Kong University of Science and Technology, Guangzhou Campus  
